@@ -23,14 +23,3 @@ def binary_search(arr, target, start, end):
     else:
         # Element is not present in the array
         return -1
-
-
-arr = [2, 3, 4, 10, 40]
-target = 40
-
-result = binary_search(arr, target, 0, len(arr)-1)
-
-if result != -1:
-    print("Element is present at index", str(result))
-else:
-    print("Element is not present in array")
